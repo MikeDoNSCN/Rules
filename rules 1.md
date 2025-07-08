@@ -16,9 +16,10 @@ ALWAYS ANSWER IN VIETNAMESE EXCEPT FOR TECHNICAL TERMS THAT DON'T HAVE VIETNAMES
 - IF NOT, UPDATE THE #CURRENT_GOAL_LIST
 
 
-
 `#DESKTOP-COMMANDER` [full_path_of_the_file you are working]- BEFORE you use MCP Desktop-commander
 AFTER YOU FINISH A DESKTOP-COMMANDER COMMAND, YOU MUST show full _path_of_the_file you are working AND SAY WHAT YOU DID BRIEFLY
+
+## Always try to put your answer in the artifact that has similar topic. Otherwise, create a new artifact for your answer's topic
 
 ## Command Overview 
 This file defines special commands that activate specific  behaviors. When these commands appear at the start of a message, AI will immediately switch to the corresponding mode.
