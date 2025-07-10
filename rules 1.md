@@ -27,9 +27,14 @@ tôi không muốn bạn tạo ra nhiều file execution để xử lý 1 lỗi.
 
 
 for `#DESKTOP-COMMANDER` Before you start making call of MCP desktop-commander, you must show full path of the file that Desktop Commander uses. in the following format:
-#DESKTOP-COMMANDER: file: .....
+#DESKTOP-COMMANDER: 
 #AND SAY WHAT YOU WILL DO BRIEFLY
+file: .....
 
+example:
+#DESKTOP-COMMANDER: 
+file: C:\Users\NCPC\Documents\AI Bmad agent 01\ABA01_Web_Interface\tmp\test_integration.py
+#Tạo file test để verify tích hợp giữa các components
 
 
 ## Command Overview 
