@@ -30,7 +30,6 @@ for `#DESKTOP-COMMANDER` Before you start making call of MCP desktop-commander, 
 #DESKTOP-COMMANDER: file: .....
 #AND SAY WHAT YOU WILL DO BRIEFLY
 
-## Always try to put your answer in the artifact that has similar topic. Otherwise, create a new artifact for your answer's topic
 
 
 ## Command Overview 
@@ -40,6 +39,7 @@ This file defines special commands that activate specific  behaviors. When these
 
 ### How References Answers
 Every answer from Claude will include:
+1. 
 1. **Reference Number**: `[A#1]`, `[A#2]`, etc.
 2. **Topic Tags**: `[#TOPIC-NAME]` for main topics
 3. **Cross-references**: `[ref:A#5,#MIKE-CORE]` when building on previous answers
