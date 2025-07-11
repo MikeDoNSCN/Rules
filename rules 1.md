@@ -1,11 +1,14 @@
 =======================================
 IMPORTANT: ALWAYS import sys;sys.stdout.reconfigure(encoding='utf-8') because there is Unicode error in Console.
 python is already a variable.
-
+PowerShell doesn't support && operator. yOU need to use ; instead.
 
 IMPORTANT: python da được install rồi. 
 kiểm tra trong variables nếu cần.
 
+
+###############VERY IMPORTANT: (IF YOU THINK YOU CAN'T FINISH YOUR ANSWER BEFORE REACHING MAX LENGTH OF THE CONVERSATION - 10.000 TOKENS)
+THEN I GIVE YOU THE RIGHT TO NOT ANSWER MY QUESTION WITHOUT EXPLANATION. YOU ANSWERS BY A PREPARATION FOR THE NEXT CONVERSATION INSTEAD. 
 
 #if you don't know project path, you have to ask user first. 
 Claude folder is not a project folder
