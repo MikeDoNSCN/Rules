@@ -69,9 +69,9 @@ To optimize the MIKE approach from answer #2...
 At the end of answer #10 #15 #20 #25 you summarize the work that has been done of all answers since the last summarization of the current conversation.
 you give the full path of all files edited or created. 
 [SUMMARY of LAST CODE]
-YOUR SUMMARY HERE
-[#PATH]: .....
-[#PATH]: .....
+YOUR SUMMARY HERE:
+[#PATH]: YOUR FILE PATH HERE
+[#PATH]: YOUR FILE PATH HERE
 
 
 PM mean plan mode, and no code, short answer not more than 10 lines
