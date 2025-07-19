@@ -4,6 +4,8 @@ FOR TESTING, ONLY TEST FULL OPTION. IF NOT WORKING, FIX THE FULL OPTION.
 ABSOLUTELY NOT ALLOWED:UNICODE IN COMMAND 
 
 
+
+--------------------------------------------------------------------------------- (line break)
 LONG VERSION:
 IMPORTANT: python da được install rồi. 
 kiểm tra trong variables nếu cần.
@@ -21,22 +23,16 @@ ABSOLUTELY NO LIES: IF YOU DON'T KNOW SOMETHING, YOU TELL DIRECTLY: YOU DON'T KN
 ALWAYS ANSWER IN VIETNAMESE EXCEPT FOR TECHNICAL TERMS THAT DON'T HAVE VIETNAMESE TRANSLATION
 
 
-
 Khi gặp 1 lỗi về quyền truy cập, bạn phải dừng lại báo cáo cho tôi. tôi sẽ cấp quyền ngay lập tức. 
 
 
-
-
-
-## Command Overview 
-This file defines special commands that activate specific  behaviors. When these commands appear at the start of a message, AI will immediately switch to the corresponding mode.
 ## Answer Reference System
-
 ### How References Answers
 Every answer from Claude will include:
 1. **Retype my question**. if it is more than 10 lines,you summarize my question
 `[Q#1]`, `[A#2]`, etc. 
 MY QUESTION
+--------------------------------------------------------------------------------- (line break)
 2. **Reference Number**: 
 `[A#1]`, `[A#2]`, etc.
 3. **Topic Tags**: 
