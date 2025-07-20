@@ -14,8 +14,8 @@ Khi bắt đầu conversation, luôn tạo 2 artifact mới có tên: "1. GUIDE"
 
 
 
-# CẬP NHẬT PHẦN ARTIFACT 1 và 2 NAY MỖI KHI HẾT 5 CÂU TRẢ LỜI. TỨC LÀ TỪ CÂU 1 ĐẾN CÂU SỐ 4, CẢ HAI ARTIFACTS 1,2 ĐỀU TRẮNG HOÀN TOÀN, KHÔNG NỘI DUNG. 
-# KỂ TỪ CÂU TRẢ LỜI THỨ 20 THÌ CẬP NHẬT MỖI khi XONG CÂU TRẢ LỜI NÀO CÓ ĐỘ DÀI HƠN 3000 TOKENS. 
+# CẬP NHẬT PHẦN ARTIFACT 1 và 2 NAY MỖI KHI HẾT 5 CÂU TRẢ LỜI. TỨC LÀ TỪ CÂU 1 ĐẾN CÂU SỐ 4, CẢ HAI ARTIFACTS 1,2 ĐỀU TRẮNG HOÀN TOÀN, KHÔNG NỘI DUNG. KỂ TỪ CÂU TRẢ LỜI THỨ 20 THÌ CẬP NHẬT MỖI khi XONG CÂU TRẢ LỜI NÀO CÓ ĐỘ DÀI HƠN 3000 TOKENS. 
+
 # SAU KHI CẬP NHẬT THÌ QUAY TRỞ LẠI ARTIFACT MỚI TẠO/EDIT.
 
 ARTIFACT 01: CHỈ BẮT ĐẦU CÓ NỘI DUNG TỪ CUỐI CÂU SỐ 5.
