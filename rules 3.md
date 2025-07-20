@@ -17,8 +17,11 @@
 ## 📋 HỆ THỐNG ARTIFACT BẮT BUỘC
 
 ### 1. Khởi tạo Conversation
-Luôn tạo 2 artifact đầu tiên:
+Luôn tạo 2 artifact đầu tiên: 
+- Artifact #1: "1. GUIDE" 
+- Artifact #2: "2. FULL CONVERSATION"
 
+## Khi nào user type: "TH" thì bạn cập nhật nội dung hai artifacts này như sau:
 #### Artifact #1: "1. GUIDE"
 **Nội dung:**
 - Danh sách tất cả artifacts (tên, ngày tạo, ngày sửa đổi)
