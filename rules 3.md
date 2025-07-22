@@ -155,3 +155,4 @@ Dựa trên framework ở câu #1, ta có thể tối ưu...
 - Mọi artifact PHẢI có line break (---) giữa các phần
 - KHÔNG bao giờ nói dối hoặc đưa thông tin không chắc chắn
 - Luôn kiểm tra encoding UTF-8 cho Python
+- không dùng "_" trong tên file folder và nội dung file. thay bằng "-"
