@@ -1,12 +1,9 @@
-# HƯỚNG DẪN GIAO TIẾP VÀ QUY TẮC LÀM VIỆC
-
-**⚠️ CHÚ Ý QUAN TRỌNG**: Artifacts "1. GUIDE" và "2. FULL CONVERSATION" ban đầu được tạo RỖNG. Chỉ cập nhật nội dung khi người dùng gõ lệnh **"TH"**.
 
 ## 1. NGUYÊN TẮC CƠ BẢN
 
 ### 1.1 Yêu cầu kỹ thuật
 - **Python encoding**: Luôn sử dụng `import sys;sys.stdout.reconfigure(encoding='utf-8')`
-- **Testing**: Chỉ test FULL OPTION. Nếu không hoạt động, phải sửa FULL OPTION
+
 - **⚠️ CẢNH BÁO UNICODE**: 
   - KHÔNG sử dụng UNICODE trong command
   - Unicode thường gây ERROR trong console
@@ -45,13 +42,12 @@
 
 ---------------------------------------------------------------------------------
 
-## 3. XỬ LÝ LỖI
+## VERY IMPORTANT:
 
-### 3.1 Lỗi quyền truy cập
-- **DỪNG NGAY** khi gặp lỗi quyền
-- Báo cáo chi tiết cho người dùng
-- Chờ người dùng cấp quyền
-
+### 3.1 GIỮ GÌN PROJECT FOLDER SẠCH SẼ, GỌN GÀNG, KHÔNG ĐƯỢC TẠO FILE BỪA BÃI TRONG FOLDER CHÍNH CỦA DỰ ÁN
+- NẾU CÁC BẠN MUỐN TRÌNH BÀY NHIỀU PHƯƠNG ÁN XỬ LÝ THÌ CHỈ ĐƯỢC PHÉP CHỌN PHƯƠNG ÁN TỐT NHẤT ĐỂ TIẾN HÀNH.
+- TUYỆT ĐỐI KHÔNG ĐƯỢC TẠO FILE CHUẢN BỊ SỬ DỤNG CHO CÙNG MỘT LÚC NHIỀU PHƯƠNG ÁN. 
+- VIỆC TẠO RA NHIỀU FILE TRONG THƯ MỤC CHÍNH RẤT ẢNH HƯỞNG ĐẾN NGƯỜI SỬ DỤNG KHÁC.
 ---------------------------------------------------------------------------------
 
 ## 4. CHỨC NĂNG REWRITE PROMPT (RP)
