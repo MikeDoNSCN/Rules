@@ -50,33 +50,10 @@
 - VIỆC TẠO RA NHIỀU FILE TRONG THƯ MỤC CHÍNH RẤT ẢNH HƯỞNG ĐẾN NGƯỜI SỬ DỤNG KHÁC.
 ---------------------------------------------------------------------------------
 
-## 4. CHỨC NĂNG REWRITE PROMPT (RP)
 
-### 4.1 Khi người dùng viết "RP"
-Tạo artifact mới với:
-1. **Rewrite prompt ban đầu**
-   - Nếu chỉ có keywords → phát triển thành prompt đầy đủ
-2. **Quy trình tương tác KEYWORD TO PRD**
-   - Đưa ra câu hỏi thứ 1 với nhiều options
-   - Người dùng chọn 1 hoặc nhiều options
-   - Đưa ra câu hỏi thứ 2 với nhiều options
-   - Người dùng chọn 1 hoặc nhiều options
-   - cho đến khi người dùng yêu cầu ngưng
-   
-### 4.2 Các biến thể RP
-- **RPshort**: Brainstorm description ngắn gọn cho dự án
-- **RPbrainstorm**: Brainstorm chi tiết cho dự án
-- **RPmvp**: Code MVP với phần main để test ngay (không cần docs)
-- **RPfull**: Code hoàn chỉnh từ PRD → product (sẵn sàng Day 1)
-- **RPdoc**: Giống RPfull + documentation đầy đủ
+## 4. HỆ THỐNG THAM CHIẾU CÂU TRẢ LỜI
 
-**Lưu ý**: Luôn hỏi về template implementation. Nếu không có → giới thiệu template phù hợp
-
----------------------------------------------------------------------------------
-
-## 5. HỆ THỐNG THAM CHIẾU CÂU TRẢ LỜI
-
-### 5.1 Format câu trả lời
+### 4.1 Format câu trả lời
 ```
 [Q#n] - Câu hỏi của bạn (tóm tắt nếu > 10 dòng)
 ---------------------------------------------------------------------------------
@@ -90,7 +67,7 @@ NỘI DUNG TRẢ LỜI...
 [#PURPOSE]: Mục đích sử dụng MCP
 ```
 
-### 5.2 Ví dụ tham chiếu
+### 4.2 Ví dụ tham chiếu
 ```
 [A#1]
 [#FRAMEWORK]
@@ -101,3 +78,35 @@ NỘI DUNG TRẢ LỜI...
 [ref:A#1]
 Dựa trên framework ở câu #1, ta có thể tối ưu...
 ```
+
+
+## 5. CHỨC NĂNG REWRITE PROMPT (RP)
+
+### 5.1 Khi người dùng viết "RP"
+Tạo artifact mới với:
+1. **Rewrite prompt ban đầu**
+   - Nếu chỉ có keywords → phát triển thành prompt đầy đủ
+2. **Quy trình tương tác KEYWORD TO PRD**
+   - Đưa ra câu hỏi thứ 1 với nhiều options
+   - Người dùng chọn 1 hoặc nhiều options
+   - Đưa ra câu hỏi thứ 2 với nhiều options
+   - Người dùng chọn 1 hoặc nhiều options
+   - cho đến khi người dùng yêu cầu ngưng
+   
+### 5.2 Các biến thể RP
+- **RPshort**: Brainstorm description ngắn gọn cho dự án
+- **RPbrainstorm**: Brainstorm chi tiết cho dự án
+- **RPmvp**: Code MVP với phần main để test ngay (không cần docs)
+- **RPfull**: Code hoàn chỉnh từ PRD → product (sẵn sàng Day 1)
+- **RPdoc**: Giống RPfull + documentation đầy đủ
+
+**Lưu ý**: Luôn hỏi về template implementation. Nếu không có → giới thiệu template phù hợp
+
+
+## 6. CHỨC NĂNG SET LINE LIMIT DESKTOP COMMANDER
+DCRW Commands (Desktop Commander only):
+- DCRW → Show current read/write line limits
+- DCRW, [read], [write] → Set limits (e.g., DCRW, 10000, 20000)
+- If Desktop Commander is not available, inform user: "Desktop Commander is not available in this session"
+---------------------------------------------------------------------------------
+
