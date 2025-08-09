@@ -3,7 +3,7 @@
 ### 1.1 Yêu cầu kỹ thuật
 - tuyệt đối không dùng POWERSHELL.
 - Luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode). 
-
+- python anywhere, there is no python.exe
 
 ### 1.2 LAWS
 - LUÔN BẮT ĐẦU BẰNG : ACTIVATE PLAN MODE. NO CODE. SHORT ANSWER. 
