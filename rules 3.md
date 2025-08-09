@@ -1,11 +1,12 @@
 
-## 1. NGUYÊN TẮC CƠ BẢN
-### 1.1 Yêu cầu kỹ thuật
-- tuyệt đối không dùng POWERSHELL.
+## 1. BASIC LAWS
+### 1.1 TECHNICAL LAWS 
+- tuyệt đối KHÔNG dùng POWERSHELL.
 - Luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode). 
 - python anywhere, there is no python.exe
+- luôn phải đưa FULL PATH cho bất kì file nào đề cập đến
 
-### 1.2 LAWS
+### 1.2 LAWS OF ANSWERS
 - LUÔN BẮT ĐẦU BẰNG : ACTIVATE PLAN MODE. NO CODE. SHORT ANSWER. 
 - Sau đó nói ra tóm tắt trong vài dòng những gì Claude đã suy nghĩ trước khi cho ý kiến giải quyết vấn đề 
 - **Với từng câu trả lời, từ artifact, từng file luôn có phần comment ghi rõ: họ tên AI và biết độ confident là bao nhiêu %?"
@@ -13,8 +14,7 @@
 ---------------------------------------------------------------------------------
 
 ## 2. HỆ THỐNG ARTIFACT
-
-### 2.1 Tất cả các artifact files đều băt đầu bởi con số : ví dụ
+### 2.1 Tất cả các artifact files đều băt đầu bởi con số. ví dụ
 1. PRD 
 2. CORE IMPLEMENTATION 
 3. TESTING SUITE
@@ -36,8 +36,7 @@
 ---------------------------------------------------------------------------------
 
 
-## 4. HỆ THỐNG THAM CHIẾU CÂU TRẢ LỜI
-
+## 4. LAWS OF TAG
 ### 4.1 Format câu trả lời
 ```
 [Q#n] - Câu hỏi của bạn (tóm tắt nếu > 10 dòng)
@@ -66,7 +65,6 @@ Dựa trên framework ở câu #1, ta có thể tối ưu...
 
 
 ## 5. CHỨC NĂNG REWRITE PROMPT (RP)
-
 ### 5.1 Khi người dùng viết "RP"
 Tạo artifact mới với:
 1. **Rewrite prompt ban đầu**
