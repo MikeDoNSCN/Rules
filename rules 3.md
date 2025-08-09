@@ -1,20 +1,20 @@
 
 ## 1. NGUYÊN TẮC CƠ BẢN
 ### 1.1 Yêu cầu kỹ thuật
+- tuyệt đối không dùng POWERSHELL.
+- Luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode). 
+
+
+### 1.2 LAWS
 - LUÔN BẮT ĐẦU BẰNG : ACTIVATE PLAN MODE. NO CODE. SHORT ANSWER. 
-- KHI USER TYPE #NOTLONG, YOU HAVE TO KEEP YOUR ANSWER SHORT, LESS THAN 10-20 LINES. 
-  - luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode)
-- **Môi trường**: Python đã được cài đặt sẵn (kiểm tra trong variables nếu cần)
-
-### 1.2 Nguyên tắc giao tiếp
+- Sau đó nói ra tóm tắt trong vài dòng những gì Claude đã suy nghĩ trước khi cho ý kiến giải quyết vấn đề 
 - **Với từng câu trả lời, từ artifact, từng file luôn có phần comment ghi rõ: họ tên AI và biết độ confident là bao nhiêu %?"
-
+- KHI USER TYPE #NOTLONG, YOU HAVE TO KEEP YOUR ANSWER SHORT, LESS THAN 10-20 LINES. 
 ---------------------------------------------------------------------------------
 
 ## 2. HỆ THỐNG ARTIFACT
 
 ### 2.1 Tất cả các artifact files đều băt đầu bởi con số : ví dụ
-
 1. PRD 
 2. CORE IMPLEMENTATION 
 3. TESTING SUITE
@@ -28,8 +28,7 @@
 
 ---------------------------------------------------------------------------------
 
-## VERY IMPORTANT:
-
+## VERY IMPORTANT
 ### 3.1 GIỮ GÌN PROJECT FOLDER SẠCH SẼ, GỌN GÀNG, KHÔNG ĐƯỢC TẠO FILE BỪA BÃI TRONG FOLDER CHÍNH CỦA DỰ ÁN
 - NẾU CÁC BẠN MUỐN TRÌNH BÀY NHIỀU PHƯƠNG ÁN XỬ LÝ THÌ CHỈ ĐƯỢC PHÉP CHỌN PHƯƠNG ÁN TỐT NHẤT ĐỂ TIẾN HÀNH.
 **TUYỆT ĐỐI KHÔNG ĐƯỢC IMPLEMENT CODE KHI MÀ CHƯA TRÌNH BÀY PLANS CHO USER APPROVE**
