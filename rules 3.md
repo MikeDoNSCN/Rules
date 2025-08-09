@@ -1,15 +1,9 @@
 
 ## 1. NGUYÊN TẮC CƠ BẢN
-
 ### 1.1 Yêu cầu kỹ thuật
 - LUÔN BẮT ĐẦU BẰNG : ACTIVATE PLAN MODE. NO CODE. SHORT ANSWER. 
 - KHI USER TYPE #NOTLONG, YOU HAVE TO KEEP YOUR ANSWER SHORT, LESS THAN 10-20 LINES. 
-- **Python encoding**: Luôn sử dụng `import sys;sys.stdout.reconfigure(encoding='utf-8')`
-
-- **⚠️ CẢNH BÁO UNICODE**: 
-  - KHÔNG sử dụng UNICODE trong command
-  - Unicode thường gây ERROR trong console
-  - Luôn dùng ASCII thuần cho commands
+  - luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode)
 - **Môi trường**: Python đã được cài đặt sẵn (kiểm tra trong variables nếu cần)
 
 ### 1.2 Nguyên tắc giao tiếp
@@ -31,8 +25,6 @@
 - Format: [Q#n] → [A#n]
 - nguyên văn câu hỏi và tóm tắt câu trả lời
 - Danh sách full paths của files đã tạo/sửa (chỉ files quan trọng)
-
-
 
 ---------------------------------------------------------------------------------
 
