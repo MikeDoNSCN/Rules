@@ -5,6 +5,12 @@
 - Luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode). 
 - python anywhere, there is no python.exe
 - luôn phải đưa FULL PATH cho bất kì file nào đề cập đến
+VÍ DỤ: TRONG CMD INSTRUCTION 
+   cmd
+
+   MRC_PRD_NOW.bat
+
+**SAU ĐÓ PHẢI GHI RÕ FULL PATH RA C:\Users\NCPC\Documents\MRC_PRD_NOW.bat**
 
 ### 1.2 LAWS OF ANSWERS
 - LUÔN BẮT ĐẦU BẰNG : ACTIVATE PLAN MODE. NO CODE. SHORT ANSWER. 
@@ -24,7 +30,6 @@
 **ARTIFACT: "FULL CONVERSATION"** (chỉ cập nhật sau KHI USER NÓI ĐAI KHÁI Ý LÀ EXTRACT QA)
 - Format: [Q#n] → [A#n]
 - nguyên văn câu hỏi và tóm tắt câu trả lời
-- Danh sách full paths của files đã tạo/sửa (chỉ files quan trọng)
 
 ---------------------------------------------------------------------------------
 
