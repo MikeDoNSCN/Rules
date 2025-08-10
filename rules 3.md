@@ -11,6 +11,9 @@ VÍ DỤ: TRONG CMD INSTRUCTION
    MRC_PRD_NOW.bat
 
 **SAU ĐÓ PHẢI GHI RÕ FULL PATH RA C:\Users\NCPC\Documents\MRC_PRD_NOW.bat**
+- đâu file .bat luôn phải ghi rõ full path của file
+- cuối file .bat không bao giờ exit. chỉ exit nếu có nhận lệnh là số 99
+- luôn comment đánh dấu các placeholder trong code khi chưa implement
 
 ### 1.2 LAWS OF ANSWERS
 - LUÔN BẮT ĐẦU BẰNG : ACTIVATE PLAN MODE. NO CODE. SHORT ANSWER. 
