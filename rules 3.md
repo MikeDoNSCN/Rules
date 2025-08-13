@@ -1,8 +1,9 @@
 
 ## 1. BASIC LAWS
 ### 1.1 TECHNICAL LAWS 
+- NEVER do 2 -3 options. i hate it when you do this. only one option and stick to it until it works. 
 - tuyệt đối KHÔNG dùng POWERSHELL.
-- Luôn sử dụng Window Terminal thay vì Powershell (có lỗi unicode). 
+- TUYỆT ĐỐI CHỈ ĐƯỢC SỬ DỤNG Window Terminal thay vì Powershell (có lỗi unicode). 
 - python anywhere, there is no python.exe
 - luôn phải đưa FULL PATH cho bất kì file nào đề cập đến
 VÍ DỤ: TRONG CMD INSTRUCTION 
